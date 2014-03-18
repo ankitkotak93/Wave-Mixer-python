@@ -1,0 +1,18 @@
+WAVE MIXER
+Ankit Kotak (201202102)
+
+This application allows us to take 3 input files and for each .wav audio file, we can do:
+	- Amplitude Scaling (0-5 units)
+	- Time reversal
+	- Time scaling (0-8 units) 
+	- Time shifting (-1 to 1 sec)
+
+After doing these operations, we can play the resulting file using the 'Play' icon below it, Pause the file using
+the 'Pause' icon.
+
+Also we can select multiple files for Mixing or Modulation using the 'Select for Mixing' and 'Select for Modulation' checkboxes and
+then Play/Pause/Stop using options under 'Mix and Play' and 'Modulate and Play'.
+
+Also a 'Record Audio' option is also there. Audio can be recorded using 'Record' icon.You can Play the recording using the play button.     
+
+The GUI and AUDIO files are done using PyAudio and Tkinter.
